@@ -18,16 +18,32 @@ export const SidebarData: SidebarItem[] = [
         iconOpened: <AiFillCaretUp />,
         subnav: [
             {
-                title: 'Users',
-                path: '/overview/users',
+                title: 'Shop',
+                path: '/dashboard/shop',
                 icon: <AiOutlineUser />
             },
             {
-                title: 'Revenue',
-                path: '/overview/revenue',
+                title: 'Supplier',
+                path: '/dashboard/supplier',
                 icon: <AiOutlineMoneyCollect />
             }
         ]
+    },
+    {
+        title: 'Agents',
+        path: '/agent',
+        icon: <FaOpencart />
+    },
+ 
+    {
+        title: 'History',
+        path: '/history',
+        icon: <AiOutlineHistory />
+    },
+    {
+        title: 'Report',
+        path: '/report',
+        icon: <FaOpencart />
     },
     {
         title: 'Order',
@@ -35,13 +51,8 @@ export const SidebarData: SidebarItem[] = [
         icon: <FaOpencart />
     },
     {
-        title: 'History',
-        path: '/history',
-        icon: <AiOutlineHistory />
-    },
-    {
-        title: 'Configurations',
-        path: '/configurations',
+        title: 'Brand',
+        path: '/brand',
         icon: <FaCog />
     }
 ];

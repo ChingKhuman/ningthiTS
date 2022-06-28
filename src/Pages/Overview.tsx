@@ -39,22 +39,22 @@ export const Overview: FC = () => {
     </div>;
 };
 
-export const Users: FC = () => {
-    return <div className="overview">Users</div>;
+export const Shop: FC = () => {
+    return <div className="overview">Shop</div>;
 };
 
-export const Revenue: FC = () => {
-    return <div className="overview">Revenue</div>;
+export const Supplier: FC = () => {
+    return <div className="overview">Supplier</div>;
 };
 
-export const Order: FC = () => {
-    return <div className="overview">Order</div>;
+export const Agent: FC = () => {
+    return <div className="overview">Agent</div>;
 };
 
 export const History: FC = () => {
     return <div className="overview">History</div>;
 };
 
-export const Configurations: FC = () => {
-    return <div className="overview">Configurations</div>;
+export const Report: FC = () => {
+    return <div className="overview">Reports</div>;
 };

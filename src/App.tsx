@@ -2,7 +2,7 @@ import React, {FC} from 'react';
 import './App.css';
 import Sidebar from './components/Sidebar';
 import {BrowserRouter , Route, Routes} from 'react-router-dom';
-import  { Overview, History,Configurations, Order, Revenue, Users } from './Pages/Overview';
+import  {  History, Shop, Supplier, Agent, Report, Overview } from './Pages/Overview';
 import Login from './Pages/Login';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -14,11 +14,11 @@ const App: FC = ()=> {
           <Routes>
           <Route path="/login" element={<Login/>} />
           <Route path="/overview" element={<Overview/>} />
-          <Route path="/overview/users" element={<Users/>} />
-          <Route path="/overview/revenue" element={<Revenue/>} />
-          <Route path="/order " element={<Order/>} />
+          <Route path="/Dashboard/shop" element={<Shop/>} />
+          <Route path="/Dashboard/supplier" element={<Supplier/>} />
+          <Route path="/agent " element={<Agent/>} />
           <Route path="/history" element={<History/>} />
-          <Route path="/configurations " element={<Configurations/>} />
+          <Route path="/report " element={<Report/>} />
             </Routes>
       </BrowserRouter>
      
